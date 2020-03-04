@@ -20,7 +20,7 @@ clear = lambda: os.system('clear')       #lambda function to clear
 def showWorld():
     global oldworld
     for y in oldworld:        
-        line =""
+        line =""      #1 and 0 are turned to * and . and added to a string
         for x in y:
             if x == 0:
                 line+="."
